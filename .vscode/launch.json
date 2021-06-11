@@ -5,11 +5,25 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Launch Package",
+            "name": "Launch Package1",
+            "type": "go",
+            "request": "launch",
+            "mode": "auto",
+            "program": "${fileDirname}/subbject_1.go"
+        },
+        {
+            "name": "Launch Package2",
+            "type": "go",
+            "request": "launch",
+            "mode": "auto",
+            "program": "${fileDirname}/subbject_2.go"
+        },
+        {
+            "name": "Launch Package3",
             "type": "go",
             "request": "launch",
             "mode": "auto",
             "program": "${fileDirname}/subbject_3.go"
-        }
+        },
     ]
 }
