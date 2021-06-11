@@ -9,7 +9,7 @@
             "type": "go",
             "request": "launch",
             "mode": "auto",
-            "program": "${fileDirname}/subbject_1.go"
+            "program": "${fileDirname}/subbject_2.go"
         }
     ]
 }
