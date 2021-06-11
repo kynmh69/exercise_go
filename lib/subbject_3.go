@@ -1,8 +1,8 @@
-package main
+package lib
 
 import "fmt"
 
-func main() {
+func sub3() {
 	n := 100
 	p := &n
 	fmt.Println(p)

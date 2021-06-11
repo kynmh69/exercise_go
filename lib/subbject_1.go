@@ -1,8 +1,8 @@
-package main
+package lib
 
 import "fmt"
 
-func main() {
+func sub1() {
 	// Q1
 	i := 1.11
 	fmt.Println(int(i))

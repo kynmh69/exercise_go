@@ -1,11 +1,11 @@
-package main
+package lib
 
 import (
 	"fmt"
 	"math"
 )
 
-func main() {
+func sub2() {
 	// Q1
 	l := []int{100, 300, 23, 11, 23, 2, 4, 6, 4}
 	tmp := l[0]
