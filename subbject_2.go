@@ -1,0 +1,5 @@
+package exercisego
+
+func main() {
+	
+}
