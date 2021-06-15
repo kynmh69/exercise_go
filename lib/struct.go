@@ -1,6 +1,4 @@
-package main
-
-import "fmt"
+package lib
 
 type Vertex struct {
 	x, y int
@@ -33,10 +31,4 @@ func (v *Vertex3D) Scale3D(i int) {
 	v.x *= i
 	v.y *= i
 	v.z *= i
-}
-
-func main() {
-	v := New(3, 4, 5)
-	v.Scale3D(10)
-	fmt.Printf("Area %d", v.Area3D())
 }
